@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill System</title>
+    <link rel="stylesheet" href="bill.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMxDj8iMQA8-IYAbUk5WdIbDySZD5e0E
+    &callback=initMap"
+    type="text/javascript"></script>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="wrapper">
+            <form>
+                <h1 class="head">TIP CALCULATOR</h1>
+             <div>
+              <label class="one">Bill Amount</label>
+                <input type="text" id="bill" name="bill" placeholder="Enter Bill Amount"><br> <br> 
+            </div>
+       <div>
+        <label for="bil1" class="one">Choose a Categorey:</label>
+            <select name="bill" class="select"id="tippercent">
+               <option value="0.02">Poor</option>
+               <option value="0.04">Bad</option>
+               <option value="0.06">Ok</option>
+               <option value="0.08">Good</option>
+               <option value="0.1">OutStanding</option>
+            </select>
+        </div>
+            <div>
+                 <label class="one">How Many People are Sharing Bill</label> 
+                <input type="number" id="people" name="share" placeholder="Sharing Bill Amount"><br><br>
+            </div>
+    
+            <button id="submit" >Calculate</button><br>
+        </form>
+    
+        <div>
+            <label class="one">Tip Amounts</label>
+            <input type="number" id="tipamount" disabled><br><br>
+        </div>
+    
+        <div>
+            <label class="one">Total Bill Amount </label>
+            <input type="number" id="totalbillamount" disabled><br><br>
+        </div>
+        <div>
+            <label class="one">Share Per Pserson</label>
+            <input type="number" id="person" disabled><br><br>
+        </div>
+    
+        <div class="maps" id="map"></div>
+
+        </div>
+        
+    <div>
+       
+    <script src="bill.js"></script>
+
+</body>
+</html>

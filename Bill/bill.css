@@ -1,0 +1,98 @@
+body {
+    background-color: #001f4f;
+    font-family: "Raleway", sans-serif;
+}
+  
+.container {
+    width: 350px;
+    height:820px;
+    background-color:burlywood;
+    position: absolute;
+    margin-left:500px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+  
+h1 {
+    
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    font-variant:small-caps;
+   
+    
+}
+.one{
+    margin-left: 22px;
+    font-size:15px;
+    font-variant:small-caps;
+}
+  
+.wrapper {
+    padding: 30px;
+}
+input{
+    margin-left:23px;
+    line-height:14px;
+    border-radius:20px;
+    padding: 20px;
+   
+   
+}
+  
+input,
+select {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #0074d9;
+    padding: 10px;
+    margin-left:23px;
+    border-radius:10px;
+}
+  
+input:focus,
+select:focus {
+    border: 1px solid #0074d9;
+    outline: none;
+}
+  
+select {
+    width: 88% !important;
+}
+  
+button {
+    margin-left:80px;
+    width: 100px;
+    height: 35px;
+    background-color:orangered;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius:10px;
+    transition: 0.3s;
+    
+}
+button:hover {
+    background-color:#ff851b;
+    color: white;
+    transform: translate(0, -2px);
+  }
+  
+.tip {
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
+#map{
+    width:100%;
+    height:300px;
+    margin-right:200px;
+    border-radius: 20px;
+    border: 2px solid burlywood;
+ 
+
+}
+
+
